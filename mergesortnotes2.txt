@@ -1,0 +1,9 @@
+during each merge step, we are creating a new array. this is not an in place sort.
+
+during the merge step we have two pointers, meaning we're keeping track of two indexes. (when you're working with linked lists, you're doing a lot of work with pointers) 
+
+two pointers could mean that we are running two loops, with an iteration variable for each one, or we have declared two variables and we're just keeping track of an updating them.
+
+when we have two sorted arrays, our first pointer looks at the start of the first array, and the second one looks at the start of the second array. we compare which one is less. this one is pushed to the new 'merged array'. we slice the pushed element from the original array, and repeat the comparison of ar1[0] and ar2[0]. keep doing this until new ar is full
+
+
