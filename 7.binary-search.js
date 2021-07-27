@@ -1,5 +1,4 @@
 // TASK: Implement binary search.
-
 /*
 binary search
 
